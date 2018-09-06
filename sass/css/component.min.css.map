@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,AAAA,CACD,WAAW,CAAE,0BAA0B,CAC1C",
+    "sources": [
+        "../asset/component.scss"
+    ],
+    "names": [],
+    "file": "component.min.css"
+}

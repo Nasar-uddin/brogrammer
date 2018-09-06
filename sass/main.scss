@@ -1,0 +1,37 @@
+@import "asset/variable";
+@import "asset/mixin";
+@import "asset/component.scss";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    // background-color: $lightgray;
+    font-family: $roboto;
+}
+
+//items style
+
+#items {
+    .well {
+        margin-bottom: 5px;
+        background: none;
+        border: none;
+        box-shadow: none;
+        h2 {
+            margin: 10px 0px;
+        }
+        h3 {
+            margin: 0;
+        }
+        a {
+            color: $dark;
+            text-decoration: none;
+            &:hover {
+                color: gray;
+            }
+        }
+    }
+}

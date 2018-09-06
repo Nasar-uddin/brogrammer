@@ -1,0 +1,15 @@
+.logo{
+    font-family: 'Berkshire Swash', cursive;
+    color:$brand-color;
+}
+.popular-item{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-bottom: 1px solid $lightgray;
+    a{
+        color:$dark;
+        &:hover{
+            color: gray;
+        }
+    }
+}
